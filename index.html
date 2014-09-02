@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset=utf-8>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/lightbox.min.js"></script>
+	<title>Photo Album</title>
+	</head>
+	<body>
+	
+	<div id="topBar"> 
+        <div id="topBarTitle">My Photo Album</div> 
+	<div id="loginButton"><input type="button" value="Login" id="loginBtn" class="myBtn"></div>
+    </div>
+	
+	<div id="centreContent">
+        <div id="splash">This is the fancy splash screen xD <button id="show" class="myBtn">Go</button></div>
+        <div id="back" style="display:none"><button id="backBtn" class="myBtn">Back</button></div>
+        <div id="searchBar" style="display:none"><input type="text" id ="searchTxt"> <input type="button" value="Search" id ="searchBtn" class="myBtn"></p></div>
+            <div id="thumbnails" style="display:none">
+                <figure><a href ="photos/1.jpg" data-lightbox="1" data-title="Tree"><img src="photos/1.jpg" alt="Tree" height="200" width="200"></a><figcaption>Tree</figcaption></figure>
+				<figure><a href ="photos/2.jpg" data-lightbox="1" data-title="Plant"><img src="photos/2.jpg" alt="Tree" height="200" width="200"></a><figcaption>Plant</figcaption></figure>
+				<figure><a href ="photos/3.jpg" data-lightbox="1" data-title="Creek"><img src="photos/3.jpg" alt="Tree" height="200" width="200"></a><figcaption>Creek</figcaption></figure>
+				<figure><a href ="photos/4.jpg" data-lightbox="1" data-title="Rock"><img src="photos/4.jpg" alt="Tree" height="200" width="200"></a><figcaption>Rock</figcaption></figure>
+				<figure><a href ="photos/5.jpg" data-lightbox="1" data-title="Diving"><img src="photos/5.jpg" alt="Tree" height="200" width="200"></a><figcaption>Diving</figcaption></figure>
+            </div>
+	</div>
+    <div id="menu">
+        <div id="menuHome" class="item"><img src="glyphicons/png/glyphicons_020_home.png" width="26" height="26" style="padding-top:5px;"><span class="space">Home</span></div>
+        <div id="menuAbout" class="item"><img src="glyphicons/png/glyphicons_195_circle_info.png" width="26" height="26" style="padding-top:5px;"><span class="space">About</span></div>
+        <div id="menuGit" class="item"><img src="glyphicons/png/glyphicons_social_21_github.png" width="26" height="26" style="padding-top:5px;"><span class="space"><a href="https://github.com/JoshuaDHolmes/PhotoAlbum" target="_blank">GitHub</a></span></div>
+    </div>
+	</body>
+	<footer>
+	   <div id="bottomBar">By Joshua Holmes &middot; Icons by Glyphicons</div>
+	</footer>
+</html>
